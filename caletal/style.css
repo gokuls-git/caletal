@@ -1,0 +1,305 @@
+body {
+    box-sizing: border-box;
+   
+}
+
+.header-nav{
+    margin-bottom: 25px;
+}
+.navbar{
+    box-shadow: 0 2px 7px -7px#626262;
+}
+
+.nav-container {
+    max-width: 1110px;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+}
+.carousel-container{
+    max-width: 1210px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.services-container {
+    max-width: 1110px;
+    /* width: 100%; */
+    margin: 0 auto;
+    margin-bottom: 113px;
+}
+.footer-container{
+ max-width: 1110px;
+ margin: 0 auto;
+ width: 100%;
+}
+.row{
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+.navbar-collapse ul li a{
+ 
+}
+.nav-link{
+    font-size: 14px;
+    padding: 0 40px;
+}
+
+
+
+
+.banner-section{
+    margin-bottom: 91.5px;
+}
+/* 
+.image-container-banner h1 {
+    font-size: 50px;
+}
+
+.banner-figure {
+    margin: 25px 0 0 0;
+    padding: 0;
+    text-align: center;
+}
+
+.banner-img {
+    object-fit: contain;
+}
+ */
+.banner-txt {
+    text-align: center;
+}
+
+.banner-txt h2 {
+    margin: 44px auto 20px auto;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 7px;
+}
+
+.banner-txt p {
+    margin: 0 auto;
+    max-width: 513px;
+    width: 513px;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.col-lg-4{
+    display: flex;
+    justify-content: space-between;
+    max-width: 241px;
+    width: 241px;
+    text-align: center;
+    padding: 0;
+    
+} 
+
+.services-list-interior {
+    max-width: 241px;
+    width:241px ;
+    text-align: center;
+    border-bottom: 2px solid #626262;
+    transition: 0.2s ease-in-out;
+    
+}
+.services-list-interior:hover{
+ border-bottom: 2px solid #1498DA ;
+}
+
+
+.services-body {
+    text-align: center;
+}
+.services-body h3{
+    font-size: 26px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-bottom: 32px;
+}
+.services-body p{
+    color: #626262;
+    font-size: 14px;
+    max-width: 242px;
+    width:241px ;
+}
+
+
+
+
+
+.second-banner{
+    background-image: url(./assets/banner_2.png);
+    background-size: cover;
+}
+
+/* carousel------------------- */
+
+.carousel-item{
+    /* display: flex; */
+}
+.carousel-caption{
+    text-align: left;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+.arrow-btn{
+    width: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn_txt-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 194px 94px;
+}.projects{
+    text-align: center;
+}
+.projects h4{
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 38px;
+}
+
+.query{
+    text-align: center;
+}
+.query h4{
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 38px;
+}
+.view-projects-btn{
+    border: none;
+    
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 20px 30px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid #F0F0F0;
+}
+.view-projects-btn:hover{
+    background-color: transparent ;
+    color: #fff;
+    border: 1px solid #F0F0F0;
+}
+
+.query-btn{
+    border: none;
+  
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    padding: 20px 45px;
+    transition: 0.5s ease-in-out;
+    border: 1px solid #F0F0F0;
+}
+.query-btn:hover{
+    background-color: transparent ;
+    color: #fff;
+    border: 1px solid #F0F0F0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-section{
+    background-color: #F0F0F0;
+}
+
+.footer-wrapper{
+    border-bottom: 2px solid #626262;
+}
+
+
+
+.left-list{
+    padding-top: 128px;
+    padding-bottom: 86px;
+}
+.right-list{
+    padding-top: 128px;
+    padding-bottom: 86px;
+}
+
+.left-list li {
+    list-style: none;
+    line-height: 2;
+    font-size: 16px;
+}
+.left-list li a{
+    text-decoration: none;
+    line-height: 2;
+    color: #000;
+    font-size: 16px;
+}
+.left-list ul, .right-list ul{
+    padding: 0;
+}
+.right-list li {
+
+    list-style: none;
+    line-height: 2;
+    font-size: 16px;
+}
+.right-list li a{
+    text-decoration: none;
+    line-height: 2;
+    font-size: 16px;
+    color: #000;
+}
+
+.contact-us{
+    text-align: right;
+    padding: 128px  0;
+}
